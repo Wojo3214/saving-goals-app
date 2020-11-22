@@ -4,8 +4,8 @@
       <div class="container">
         <form>
           <input type="text" class="inputField" v-model="goal.name" placeholder="What's your goal?" required>
-          <input type="number" class="inputField" v-model="goal.limit" placeholder="How much wanna save?" required>
-          <input type="number" class="inputField" v-model="goal.current" placeholder="Wanna top-up moeny now?">
+          <input type="number" class="inputField" v-model="goal.limit" placeholder="How much you want to save?" required>
+          <input type="number" class="inputField" v-model="goal.current" placeholder="Want to top-up money now?">
           <button type="button" v-on:click="createNewGoal">Create new goal</button>
         </form>
       </div>
